@@ -1,0 +1,31 @@
+{
+  "name": "advancement",
+  "version": "0.1.0",
+  "description": "Archive current Pitchfork Advance streams.",
+  "main": "./lib/Advancement.js",
+  "private": true,
+  "dependencies": {
+    "async": "^0.6.2",
+    "ent": "~0.1.0",
+    "mkdirp": "~0.3.5",
+    "underscore": "^1.6.0",
+    "zombie": "~2.0.0-alpha24"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickStankard/advancement"
+  },
+  "author": "Patrick Stankard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrickStankard/advancement/issues"
+  }
+}
