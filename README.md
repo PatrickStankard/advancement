@@ -6,8 +6,8 @@ Archive current [Pitchfork Advance](http://pitchfork.com/advance/) streams.
 ```bash
 # prereqs: rtmpdump, ffmpeg, id3v2, node
 $ brew install ffmpeg rtmpdump id3v2 node
-$ npm install .
-$ npm start
+$ npm install
+$ ./advancement
 ```
 
 Outputs the stream's cover, artwork, and audio files
